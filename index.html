@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/index.js" defer type="module"></script>
+    <title>RPG</title>
+</head>
+<body>
+    <main>
+        <h1>Bem vindo ao RPG!</h1>
+
+        <form id="adicionar-personagem">
+
+            <label for="personagem">Personagem: </label>
+
+            <select name="personagem" id="personagem">
+                <option value="padrao" selected> Padrão</option>
+                <option value="thief" > Patife</option>
+                <option value="mage" > Mago</option>
+                <option value="warrior" > Guerreiro</option>
+            </select>           
+
+            <button type="submit" id="inserir">Inserir</button>
+
+            <button type="button" id="mostrar-personagens">Mostrar</button>
+
+        </form>
+
+    </main>
+</body>
+</html>
